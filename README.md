@@ -2,11 +2,12 @@
 (official) Code for "RADCoT: Retrieval-Augmented Distillation to Specialization Models for Generating Chain-of-Thoughts in Query Expansion", LREC-COLING 2024 (accepted)
 
 ## Requirements
-* [PyTorch](http://pytorch.org/) >= 1.9
+* [PyTorch](http://pytorch.org/) >= 1.13.1
 * numpy
 * faiss-cpu
-* transformers==3.0.2
+* transformers==4.33.2
 * tensorboard
+* pyserini
 
 ## Process
 
