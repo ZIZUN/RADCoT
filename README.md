@@ -44,31 +44,6 @@ python retrieve_bm25.py --eval_dataset trec-dl-19 --query_augment_file_path llm_
 If you encounter any problem, leave an issue in the github repo.
 
 
-## Citation
-```bibtex
-
-
-@inproceedings{lee-etal-2023-mafid,
-    title = "{MAF}i{D}: Moving Average Equipped Fusion-in-Decoder for Question Answering over Tabular and Textual Data",
-    author = "Lee, Sung-Min  and
-      Park, Eunhwan  and
-      Seo, Daeryong  and
-      Jeon, Donghyeon  and
-      Kang, Inho  and
-      Na, Seung-Hoon",
-    editor = "Vlachos, Andreas  and
-      Augenstein, Isabelle",
-    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
-    month = may,
-    year = "2023",
-    address = "Dubrovnik, Croatia",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.findings-eacl.177",
-    doi = "10.18653/v1/2023.findings-eacl.177",
-    pages = "2337--2344",
-    abstract = "Transformer-based models for question answering (QA) over tables and texts confront a {``}long{''} hybrid sequence over tabular and textual elements, causing long-range reasoning problems. To handle long-range reasoning, we extensively employ a fusion-in-decoder (FiD) and exponential moving average (EMA), proposing a Moving Average Equipped Fusion-in-Decoder (\textbf{MAFiD}). With FiD as the backbone architecture, MAFiD combines various levels of reasoning: \textit{independent encoding} of homogeneous data and \textit{single-row} and \textit{multi-row heterogeneous reasoning}, using a \textit{gated cross attention layer} to effectively aggregate the three types of representations resulting from various reasonings. Experimental results on HybridQA indicate that MAFiD achieves state-of-the-art performance by increasing exact matching (EM) and F1 by 1.1 and 1.7, respectively, on the blind test set.",
-}
-```
 
 ## Citation
 ```bibtex
